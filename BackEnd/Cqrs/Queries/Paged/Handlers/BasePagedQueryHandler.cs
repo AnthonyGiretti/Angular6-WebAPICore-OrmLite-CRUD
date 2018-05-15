@@ -1,7 +1,7 @@
-﻿namespace Nexus.Cqrs.Queries.Paged.Handlers
+﻿namespace Cqrs.Queries.Paged.Handlers
 {
     using System.Collections.Generic;
-    using Nexus.Cqrs.Queries.Handlers;
+    using Cqrs.Queries.Handlers;
 
     public abstract class
         BasePagedQueryHandler<TPagedQuery, TResult> : BaseQueryHandler<TPagedQuery, IEnumerable<TResult>>

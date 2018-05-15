@@ -1,8 +1,8 @@
-﻿namespace Nexus.Cqrs.Events.Bus
+﻿namespace Cqrs.Events.Bus
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Events.Handlers;
+    using Cqrs.Events.Handlers;
 
     public interface IEventBus
     {

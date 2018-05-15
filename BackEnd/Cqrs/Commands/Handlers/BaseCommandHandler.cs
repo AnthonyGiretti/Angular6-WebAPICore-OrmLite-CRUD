@@ -1,8 +1,8 @@
-﻿namespace Nexus.Cqrs.Commands.Handlers
+﻿namespace Cqrs.Commands.Handlers
 {
     using System;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Commands.Exceptions;
+    using Cqrs.Commands.Exceptions;
 
     public abstract class BaseCommandHandler<TCommand>
         : ICommandHandler<TCommand> where TCommand : ICommand

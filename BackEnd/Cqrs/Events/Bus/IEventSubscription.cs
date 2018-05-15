@@ -1,6 +1,6 @@
-namespace Nexus.Cqrs.Events.Bus
+namespace Cqrs.Events.Bus
 {
-    using Nexus.Cqrs.Events.Handlers;
+    using Cqrs.Events.Handlers;
 
     public interface IEventSubscription
     {

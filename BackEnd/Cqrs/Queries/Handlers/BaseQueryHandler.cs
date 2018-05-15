@@ -1,8 +1,8 @@
-﻿namespace Nexus.Cqrs.Queries.Handlers
+﻿namespace Cqrs.Queries.Handlers
 {
     using System;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Queries.Exceptions;
+    using Cqrs.Queries.Exceptions;
 
     public abstract class BaseQueryHandler<TQuery, TResult> : IQueryHandler<TQuery, TResult>
         where TQuery : IQuery<TResult>

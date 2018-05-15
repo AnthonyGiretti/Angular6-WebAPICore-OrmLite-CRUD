@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Events
+﻿namespace Cqrs.Events
 {
     using System;
 

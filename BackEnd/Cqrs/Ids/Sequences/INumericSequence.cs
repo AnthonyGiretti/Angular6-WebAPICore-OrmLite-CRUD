@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Ids.Sequences
+﻿namespace Cqrs.Ids.Sequences
 {
     public interface INumericSequence
     {

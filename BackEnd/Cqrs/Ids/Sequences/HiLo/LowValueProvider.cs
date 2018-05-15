@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Ids.Sequences.HiLo
+﻿namespace Cqrs.Ids.Sequences.HiLo
 {
     using System;
 

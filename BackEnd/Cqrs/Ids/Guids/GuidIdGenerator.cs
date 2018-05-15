@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Ids.Guids
+﻿namespace Cqrs.Ids.Guids
 {
     using System;
 

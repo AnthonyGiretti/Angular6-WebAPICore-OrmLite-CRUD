@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Commands
+﻿namespace Cqrs.Commands
 {
     using System;
 

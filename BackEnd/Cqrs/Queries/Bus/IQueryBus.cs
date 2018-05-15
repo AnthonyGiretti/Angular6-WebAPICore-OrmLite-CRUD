@@ -1,8 +1,8 @@
-﻿namespace Nexus.Cqrs.Queries.Bus
+﻿namespace Cqrs.Queries.Bus
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Queries.Paged;
+    using Cqrs.Queries.Paged;
 
     public interface IQueryBus
     {

@@ -1,7 +1,7 @@
-﻿namespace Nexus.Cqrs.Events.Bus
+﻿namespace Cqrs.Events.Bus
 {
     using System;
-    using Nexus.Cqrs.Events.Handlers;
+    using Cqrs.Events.Handlers;
 
     public class EventSubscription<TEvent> : IEventSubscription<TEvent> where TEvent : IEvent
     {

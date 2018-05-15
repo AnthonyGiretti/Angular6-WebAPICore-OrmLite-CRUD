@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Events.Exceptions
+﻿namespace Cqrs.Events.Exceptions
 {
     using System;
 

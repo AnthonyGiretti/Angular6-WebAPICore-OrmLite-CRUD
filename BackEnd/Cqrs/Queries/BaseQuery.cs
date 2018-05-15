@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Queries
+﻿namespace Cqrs.Queries
 {
     using System;
 

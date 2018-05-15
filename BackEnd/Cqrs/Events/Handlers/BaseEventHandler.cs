@@ -1,8 +1,8 @@
-﻿namespace Nexus.Cqrs.Events.Handlers
+﻿namespace Cqrs.Events.Handlers
 {
     using System;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Events.Exceptions;
+    using Cqrs.Events.Exceptions;
 
     public abstract class BaseEventHandler<TEvent> : IEventHandler<TEvent> where TEvent : IEvent
     {

@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Commands.Bus
+﻿namespace Cqrs.Commands.Bus
 {
     using System.Threading.Tasks;
 

@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Events.Handlers
+﻿namespace Cqrs.Events.Handlers
 {
     using System;
     using System.Threading.Tasks;

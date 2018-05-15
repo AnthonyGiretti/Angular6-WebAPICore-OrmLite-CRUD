@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Queries.Handlers
+﻿namespace Cqrs.Queries.Handlers
 {
     using System;
     using System.Threading.Tasks;

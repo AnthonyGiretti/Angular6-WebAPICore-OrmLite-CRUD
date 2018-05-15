@@ -1,11 +1,11 @@
-﻿namespace Nexus.Cqrs.Events.Bus
+﻿namespace Cqrs.Events.Bus
 {
     using System;
     using System.Collections.Concurrent;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Events.Handlers;
+    using Cqrs.Events.Handlers;
 
     public class InMemoryEventBus : IEventBus
     {

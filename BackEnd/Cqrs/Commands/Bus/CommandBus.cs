@@ -1,11 +1,11 @@
-﻿namespace Nexus.Cqrs.Commands.Bus
+﻿namespace Cqrs.Commands.Bus
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Commands.Exceptions;
-    using Nexus.Cqrs.Commands.Handlers;
+    using Cqrs.Commands.Exceptions;
+    using Cqrs.Commands.Handlers;
 
     public class CommandBus : ICommandBus
     {

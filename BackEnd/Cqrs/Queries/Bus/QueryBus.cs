@@ -1,12 +1,12 @@
-﻿namespace Nexus.Cqrs.Queries.Bus
+﻿namespace Cqrs.Queries.Bus
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Nexus.Cqrs.Queries.Exceptions;
-    using Nexus.Cqrs.Queries.Handlers;
-    using Nexus.Cqrs.Queries.Paged;
+    using Cqrs.Queries.Exceptions;
+    using Cqrs.Queries.Handlers;
+    using Cqrs.Queries.Paged;
 
     public class QueryBus : IQueryBus
     {

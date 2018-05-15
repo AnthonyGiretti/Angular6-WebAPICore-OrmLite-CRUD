@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Queries.Paged
+﻿namespace Cqrs.Queries.Paged
 {
     using System;
 

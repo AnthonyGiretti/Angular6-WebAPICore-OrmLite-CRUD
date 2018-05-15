@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Queries.Exceptions
+﻿namespace Cqrs.Queries.Exceptions
 {
     public class NoQueryHandlersException : QueryException
     {

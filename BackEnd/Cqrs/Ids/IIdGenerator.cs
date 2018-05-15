@@ -1,4 +1,4 @@
-﻿namespace Nexus.Cqrs.Ids
+﻿namespace Cqrs.Ids
 {
     public interface IIdGenerator
     {
