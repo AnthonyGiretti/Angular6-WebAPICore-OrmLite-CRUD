@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Crud-DDD-Cqrs-Demo.Crud.Domain</AssemblyName>
+    <RootNamespace>Crud-DDD-Cqrs-Demo.Crud.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>
