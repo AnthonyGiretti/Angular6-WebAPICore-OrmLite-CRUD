@@ -4,4 +4,7 @@
     <AssemblyName>Crud-DDD-Cqrs-Demo.Crud.Domain</AssemblyName>
     <RootNamespace>Crud-DDD-Cqrs-Demo.Crud.Domain</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cqrs\Cqrs.csproj" />
+  </ItemGroup>
 </Project>
