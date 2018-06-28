@@ -5,6 +5,9 @@
     <RootNamespace>Crud-DDD-Cqrs-Demo.Crud.Infrastructure</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="ServiceStack.OrmLite.SqlServer.Core" Version="5.1.0" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 </Project>
