@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Cqrs.Commands.Bus;
+using Cqrs.Queries.Bus;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace Api
 {
@@ -35,6 +31,28 @@ namespace Api
             }
 
             app.UseMvc();
+        }
+
+        //private void ConfigureIds(IServiceCollection services)
+        //{
+        //    services.AddSingleton<IIdGenerator, NumericSequenceIdGenerator>();
+        //    services.AddSingleton<INumericSequence, HiLoNumericSequence>();
+        //    services.AddSingleton<IHighValueProvider, InMemoryHighValueProvider>();
+        //    services.AddSingleton<ILowValueProvider>(p => new LowValueProvider(1000));
+        //}
+
+        private void ConfigureCommands(IServiceCollection services)
+        {
+            services.AddSingleton<ICommandBus, CommandBus>();
+
+            //services.AddSingleton<ICommandHandler, CreateProjectCommandHandler>();
+        }
+
+        private void ConfigureQueries(IServiceCollection services)
+        {
+            services.AddSingleton<IQueryBus, QueryBus>();
+
+            //services.AddSingleton<IQueryHandler, GetProjectQueryHandler>();
         }
     }
 }
