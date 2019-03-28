@@ -1,5 +1,5 @@
 # Angular6-WebAPICore-OrmLite-CRUD
-Samples of CRUD operations with Angular 6, Web API Core 2.0 and ORMLite.
+Samples of CRUD operations with Angular 6, Web API Core 2.0 and ORMLite with pattern CQRS
 (Work in progress)
 
 This example is built on AdventureWorks 2014 database.
