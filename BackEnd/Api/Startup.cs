@@ -33,14 +33,6 @@ namespace Api
             app.UseMvc();
         }
 
-        //private void ConfigureIds(IServiceCollection services)
-        //{
-        //    services.AddSingleton<IIdGenerator, NumericSequenceIdGenerator>();
-        //    services.AddSingleton<INumericSequence, HiLoNumericSequence>();
-        //    services.AddSingleton<IHighValueProvider, InMemoryHighValueProvider>();
-        //    services.AddSingleton<ILowValueProvider>(p => new LowValueProvider(1000));
-        //}
-
         private void ConfigureCommands(IServiceCollection services)
         {
             services.AddSingleton<ICommandBus, CommandBus>();
