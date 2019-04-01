@@ -36,15 +36,11 @@ namespace Api
         private void ConfigureCommands(IServiceCollection services)
         {
             services.AddSingleton<ICommandBus, CommandBus>();
-
-            //services.AddSingleton<ICommandHandler, CreateProjectCommandHandler>();
         }
 
         private void ConfigureQueries(IServiceCollection services)
         {
             services.AddSingleton<IQueryBus, QueryBus>();
-
-            //services.AddSingleton<IQueryHandler, GetProjectQueryHandler>();
         }
     }
 }
